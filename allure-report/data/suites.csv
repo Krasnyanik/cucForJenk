@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jan 20 22:55:41 MSK 2024","Sat Jan 20 22:56:13 MSK 2024","31817","","Добавление товара в таблицу","","Успешное добавление товара в таблицу true Ананас Фрукт FRUIT","","Успешное добавление товара в таблицу true Ананас Фрукт FRUIT",""
+"skipped","Sat Jan 20 22:55:20 MSK 2024","Sat Jan 20 22:55:35 MSK 2024","14421","","Добавление товара в таблицу","","Успешное добавление товара в таблицу false йцю123qw!@#$%^&*()_+\/| Овощ VEGETABLE","","Успешное добавление товара в таблицу false йцю123qw!@#$%^&*()_+\/| Овощ VEGETABLE",""
