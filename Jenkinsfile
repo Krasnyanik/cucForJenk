@@ -4,7 +4,7 @@ node('unix') {
 	}
 	stage('Run tests') {
 		withMaven(globalMavenSettingsConfig: '', jdk: '', maven: 'Default', mavenSettingsConfig: '', traceability: true) {
-			sh 'mvn clean test'
+			sh 'mvn clean test -Dcucumber.filter.tags=@${tag} -Dtype.browser=${browser}'
 		}
 	}
 	stage('Allure reports') {
